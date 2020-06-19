@@ -5,7 +5,7 @@
 /*
 It accepts a number greater than or equal to 0 and creates an array of length of that number. Each element that is not the first two elements will be the sum of the previous 2 elements.
 
-Runtime complexity is O(n) because running time is directly proportional to the size of the input.
+Runtime complexity is O(n) because running time is directly proportional to the size of the input. Or in this case, the value of the input.
 
 */
 
