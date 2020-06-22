@@ -2,7 +2,7 @@
 
 //Q. What is the Big O of the following algorithm? Explain your answer
 
-//Answer: 
+//Answer: O(n^2) because an algorithm with polynomial time complexity that requires 2 levels of looping over an input would be O(n^2)
 
 function createPairs(arr) {
     let ticks=0;

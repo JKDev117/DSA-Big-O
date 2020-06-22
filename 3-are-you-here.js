@@ -2,7 +2,7 @@
 
 //Q. What is the Big O of the following algorithm? Explain your answer
 
-//Answer: It is O(n) because run time is directly proportional to the size of the input.
+//Answer: It is O(n^2) because of the two 'for' loops.
 
 function areYouHere(arr1, arr2) {
     let ticks = 0
