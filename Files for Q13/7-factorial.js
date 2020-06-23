@@ -1,24 +1,28 @@
 /* 7. Factorial ------------------------------------------------------------------ */
+let ticks = 0
+
 function factorial(n){
     //base case
     if(n===1){
+        ticks++
         return n;
     }
     //general case
+    ticks++
     return n * factorial(n-1)
 }
 
-console.log(factorial(5))
+factorial(1)
+console.log({ticks})
+ticks=0
 
+factorial(5)
+console.log({ticks})
+ticks=0
 
-/*
-    input to program: 5
-    output of the program: 120
-    input to each recursive call: 4, 3, 2, 1
-    output of each recursive call: 
-        4 * factorial(3) => 24
-        3 * factorial(2) => 6
-        2 * factorial(1) => 2
--------------------------------------------------------------------------------------- */
+factorial(50)
+console.log({ticks})
+ticks=0
+
 
 //node 7-factorial.js

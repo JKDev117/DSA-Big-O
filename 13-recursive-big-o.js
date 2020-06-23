@@ -12,12 +12,12 @@ Answers:
 4. nth triangular number = O(n)
 5. string splitter = O(2n)
 6. fibonacci = O(2n)
-7. factorial =
-8. find a way out of the maze =
-9. find all the ways out of the maze =
-10. anagrams =
-11. organization chart =
-12. binary representation =
+7. factorial = O(n)
+8. find a way out of the maze = O(2n) ?
+9. find all the ways out of the maze = O(2n) ?
+10. anagrams = O(n^2) ?
+11. organization chart = O(2n) ?
+12. binary representation = O(n) ?
 
 
 */

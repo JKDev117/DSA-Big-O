@@ -11,11 +11,16 @@ const employees_example = [
   }
 ]
 
+let ticks = 0;
+
 function companyStructure(tree, i=0){
+
   return tree.reduce((output, employee) => {
+    ticks++
     output += `${new Array(i).fill('\t').join('')}${employee.name}\n`
     
     if(employee.employees.length){
+      ticks++
       output += companyStructure(employee.employees, i+1)
     }
 
@@ -23,24 +28,15 @@ function companyStructure(tree, i=0){
   },'')
 }
 
-console.log(companyStructure(employees))
+companyStructure(employees_example)
+console.log({ticks})
+ticks=0
 
-//console.log(companyStructure(employees_example))
+companyStructure(employees)
+console.log({ticks})
+ticks=0
 
-/*
-    input to program: employees_example
-    
-    output of the program:
-    Phteve Yobs
-      Phteve Bozniak
 
-    input to each recursive call: 
-    ([ { name:'Phteve Bozniak', employees: [] } ], 1)
 
-    output of each recursive call:
-        Phteve Yobs
-          Phteve Bozniak
-
--------------------------------------------------------------------------------------- */
 
 //node 11-organization-chart.js
