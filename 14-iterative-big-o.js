@@ -169,15 +169,15 @@ function stringSplit(string){
 }
 
 stringSplit("")
-console.log(ticks5)
+console.log({n: "", ticks5})
 ticks5 = 0
 
 stringSplit("2020")
-console.log(ticks5)
+console.log({n: "2020", ticks5})
 ticks5 = 0
 
 stringSplit("02/20/2020")
-console.log(ticks5)
+console.log({n: "02/20/2020", ticks5})
 ticks5 = 0
 
 console.log('--------------------------------------')
@@ -205,19 +205,19 @@ function fibonacci(num){
 }
 
 fibonacci(0)
-console.log(ticks6)
+console.log({n: 0, ticks6})
 ticks6 = 0
 
 fibonacci(1)
-console.log(ticks6)
+console.log({n: 1, ticks6})
 ticks6 = 0
 
 fibonacci(2)
-console.log(ticks6)
+console.log({n: 2, ticks6})
 ticks6 = 0
 
 fibonacci(7)
-console.log(ticks6)
+console.log({n: 7, ticks6})
 ticks6 = 0
 
 

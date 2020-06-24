@@ -15,14 +15,16 @@ function stringSplitter(string, delimiters) {
   
 
 stringSplitter('2', ['/'])
-console.log({ticks})
+console.log({n: "2", ticks})
 ticks=0
 
 stringSplitter('2/20', ['/'])
-console.log({ticks})
+console.log({n: "2/20", ticks})
 ticks=0
 
 stringSplitter('2/20/2020', ['/'])
-console.log({ticks})
+console.log({n: "2/20/2020", ticks})
+
+
 
 //node 5-string-splitter.js

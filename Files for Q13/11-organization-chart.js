@@ -4,9 +4,9 @@ const employees = require('./employees.js')
 
 const employees_example = [
   {
-    name: 'Phteve Yobs',
+    name: 'Steve Yobs',
     employees: [
-                { name:'Phteve Bozniak', employees: [] }
+                { name:'Steve Fozniak', employees: [] }
                ]
   }
 ]

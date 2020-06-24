@@ -18,11 +18,11 @@ function anagrams(word, candidate=""){
 }
 
 anagrams("ab")
-console.log({ticks})
+console.log({n: '2', ticks})
 ticks=0
 
 anagrams("abc")
-console.log({ticks})
+console.log({n: '3', ticks})
 ticks=0
 
 

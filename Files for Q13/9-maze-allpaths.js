@@ -62,7 +62,7 @@ function findMazeExit(maze, row=0, column=0, path=[]){
 }
 
 findMazeExit([[' ','e']])
-console.log({ticks})
+console.log({n: '1x2=2', ticks})
 ticks=0
 
 findMazeExit([
@@ -70,7 +70,7 @@ findMazeExit([
     [' ', '*', ' '],
     [' ', ' ', 'e']
 ])
-console.log({ticks})
+console.log({n: '3x3=9', ticks})
 ticks=0
 
 findMazeExit([
@@ -80,7 +80,7 @@ findMazeExit([
     [' ', '*', '*', '*', '*', '*', ' '],
     [' ', ' ', ' ', ' ', ' ', ' ', 'e']
 ])
-console.log({ticks})
+console.log({n: '5x7=35', ticks})
 ticks=0
 
 

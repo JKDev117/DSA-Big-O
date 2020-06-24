@@ -23,16 +23,19 @@ function numToBinary(num, string=''){
   }
   
 }
+
+
+
 numToBinary(0)
-console.log({ticks})
+console.log({n: 0, ticks})
 ticks=0
 
 numToBinary(3)
-console.log({ticks})
+console.log({n: 3, ticks})
 ticks=0
 
 numToBinary(25)
-console.log({ticks})
+console.log({n: 25, ticks})
 ticks=0
 
 
