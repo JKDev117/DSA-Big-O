@@ -10,7 +10,7 @@ Answers:
 2. power calculator = O(n)
 3. reverse string = O(n)
 4. nth triangular number = O(n)
-5. string splitter = O(2n)
+5. string splitter = O(n)
 6. fibonacci = O(2n)
 7. factorial = O(n)
 8. find a way out of the maze = O(2n) ?
