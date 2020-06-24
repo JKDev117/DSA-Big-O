@@ -23,18 +23,18 @@ function fibonacci(n){
 }
 
 fibonacci(3)
-console.log({ticks})
+console.log({n: 3, ticks})
 ticks=0
 
 fibonacci(6)
-console.log({ticks})
+console.log({n: 6, ticks})
 ticks=0
 
 fibonacci(9)
-console.log({ticks})
+console.log({n: 9, ticks})
 ticks=0
 
 fibonacci(12)
-console.log({ticks})
+console.log({n: 12, ticks})
 
 //node 6-fibonacci.js
